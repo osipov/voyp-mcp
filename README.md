@@ -37,7 +37,7 @@ To install the voyp-mcp server, you can use the following methods:
 ### 1. Running with NPX 
 
 ```bash
-npx -y voyp-mcp   
+npx -y voyp-mcp@0.1.0   
 ```
 
 Although you can launch a server on its own, it's not particularly helpful in isolation. Instead, you should integrate it into an MCP client. Below is an example of how to configure the Claude Desktop app to work with the voyp-mcp server.
