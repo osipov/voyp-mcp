@@ -2,7 +2,8 @@
   "name": "voyp-mcp",
   "version": "0.1.0",
   "description": "Voyp Model Context Protocol server",
-  "private": true,
+  "author": "Control Space BV",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "voyp-mcp": "./build/index.js"
@@ -14,7 +15,40 @@
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "prepare": "npm run build",
     "watch": "tsc --watch",
-    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "voyp-mcp",
+    "voyp",
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "automation",
+    "automation-tools",
+    "calls",
+    "call-assistant",
+    "call-agent",
+    "call-automation",
+    "call-center",
+    "call-center-automation",
+    "call-center-tools",
+    "claude",
+    "claude-desktop",
+    "goose",
+    "llm",
+    "ai",
+    "ai-automation",
+    "ai-tools",
+    "conversational-ai",
+    "artificial-intelligence",
+    "anthropic",
+    "openai",
+    "chatgpt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulotaylor/voyp-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
