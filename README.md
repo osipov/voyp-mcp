@@ -19,7 +19,7 @@ Before you use Voyp, you need:
 
 - [Voyp API key](https://voyp.app/app.html)
   - You will also need to buy credits to spend while making calls. You can also buy credits [here](https://voyp.app/app.html)
-- [Claude Desktop](https://claude.ai/download)
+- [Claude Desktop](https://claude.ai/download), [Goose](https://github.com/block/goose) or other compatible clients
 - [Node.js](https://nodejs.org/) (v20 or higher)
   - You can verify your Node.js installation by running:
     - `node --version`
@@ -30,14 +30,25 @@ Before you use Voyp, you need:
     - RedHat/CentOS: `sudo yum install git`
   - On Windows: Download [Git for Windows](https://git-scm.com/download/win)
 
-## Voyp MCP server installation ⚡
+## Voyp MCP server installation for [Goose](https://github.com/block/goose) ⚡
+
+To install the voyp-mcp server you will need to add the extension manually.
+
+![Adding VOYP MCP server to Goose](./assets/voyp-goose-extension.png)
+
+Voyp + Goose Demo:
+
+[![Voyp + Goose Demo](./assets/voyp-goose.gif)](https://www.youtube.com/watch?v=mZaLncjvYOc)
+
+
+## Voyp MCP server installation for Claude Desktop ⚡
 
 To install the voyp-mcp server, you can use the following methods:
 1. Installing via Smithery
 2. Running with NPX 
 3. Git installation
 
-### Installing via Smithery
+### 1. Installing via Smithery
 
 To install Voyp Model Context Protocol server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@paulotaylor/voyp-mcp):
 
@@ -45,7 +56,7 @@ To install Voyp Model Context Protocol server for Claude Desktop automatically v
 npx -y @smithery/cli install @paulotaylor/voyp-mcp --client claude
 ```
 
-### 1. Running with NPX 
+### 2. Running with NPX 
 
 ```bash
 npx -y voyp-mcp@0.1.0   
@@ -90,7 +101,7 @@ Replace `your-VOYP-api-key` with your actual [VOYP API key](https://voyp.app/app
 }
 ```
 
-### 2. Git Installation
+### 3. Git Installation
 
 1. Clone the repository:
 ```bash
@@ -132,6 +143,11 @@ Once the installation is complete, and the Claude desktop app is configured, you
 
 
 Now claude will have complete access to the voyp-mcp server, including the start_call and hangup_call tools. 
+
+Voyp + Claude Desktop Demo:
+
+[![Voyp + Claude Desktop Demo](./assets/voyp-claude.gif)](https://www.youtube.com/watch?v=E0D1KqOBRuo)
+
 
 ## Troubleshooting 🛠️
 
