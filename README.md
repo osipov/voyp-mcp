@@ -13,6 +13,8 @@ The Voyp MCP server allows you to:
 - Provide status of the call
 - Hangup call
 
+<a href="https://glama.ai/mcp/servers/nlah6xt0ml"><img width="380" height="200" src="https://glama.ai/mcp/servers/nlah6xt0ml/badge" alt="Voyp Server MCP server" /></a>
+
 ## Prerequisites 🔧
 
 Before you use Voyp, you need:
