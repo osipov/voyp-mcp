@@ -1,5 +1,7 @@
 # Voyp Model Context Protocol server
 
+[![smithery badge](https://smithery.ai/badge/@paulotaylor/voyp-mcp)](https://smithery.ai/server/@paulotaylor/voyp-mcp)
+
 The Model Context Protocol (MCP) is an open standard that enables AI systems to interact seamlessly with various data sources and tools, facilitating secure, two-way connections.
 
 Developed by Anthropic, the Model Context Protocol (MCP) enables AI assistants like Claude to seamlessly integrate with VOYP's calling capabilities. This integration provides AI models with possibility of making phone calls and monitor their progress.
@@ -31,8 +33,17 @@ Before you use Voyp, you need:
 ## Voyp MCP server installation ⚡
 
 To install the voyp-mcp server, you can use the following methods:
-1. Running with NPX 
-2. Git installation
+1. Installing via Smithery
+2. Running with NPX 
+3. Git installation
+
+### Installing via Smithery
+
+To install Voyp Model Context Protocol server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@paulotaylor/voyp-mcp):
+
+```bash
+npx -y @smithery/cli install @paulotaylor/voyp-mcp --client claude
+```
 
 ### 1. Running with NPX 
 
